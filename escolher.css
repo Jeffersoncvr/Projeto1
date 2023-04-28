@@ -5,10 +5,7 @@
 
 body{
     background-color: #322e2e;
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
 }
 
 h1{ 
@@ -22,7 +19,10 @@ h1{
 }
 
 #porque-nos-escolher {
+    padding-top: 5vh;
     display: flex;
+    height: 100%;
+    width: 100%;
   }
 
 
