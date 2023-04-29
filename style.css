@@ -1,0 +1,307 @@
+#home{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div-home h1{
+    background-image: url(gif/fundo1.gif);
+    background-position: center;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.534);
+    color: hsl(10, 100%, 50%);
+    /*-webkit-text-stroke: 0.5px white;*/
+    text-shadow: 3px 3px 5px white;
+    font-size: 15vh;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    margin-top: -15vh;
+    border-radius: 10rem;
+}
+
+.div-home h3{
+    color: rgb(155, 25, 25);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 1px 2px black;
+}
+
+
+/*=================================================================================================================*/
+
+#sobre{
+    background-color: rgb(100, 100, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div-sobre h1{
+    color: hsl(10, 100%, 50%);
+    text-shadow: 2px 2px 3px white;
+}
+
+.div-sobre{
+    color: white;
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+    width: 60vh;
+}
+
+#sobre img{
+    height: 40vh;
+    border-radius: 5rem;
+    margin-right: 40px; 
+}
+
+
+/*=================================================================================================================*/
+
+#servicos{
+    margin-top: -6vh;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div-servicos h1{
+    display: flex;
+    justify-content: center;
+    color: hsl(10, 100%, 50%);
+    text-shadow: 2px 2px 3px white;
+    font-size: 80px;
+}
+
+
+.div-servicos h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(10, 100%, 50%);
+    text-shadow: 2px 2px 3px white;
+    font-size: 40px;
+}
+
+.div-servicos2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.div-servicos img{
+    width: 20vh;
+    transition: width 1.5s, height 1.5s;
+}
+
+.div-servicos2 :hover{
+    width: 24vh;
+}
+
+
+/*=================================================================================================================*/
+
+#escolher{
+    background-color: rgb(100, 100, 100);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .div-escolher h1{
+    display: flex;
+    justify-content: center;
+    color: hsl(10, 100%, 50%);
+    text-shadow: 2px 2px 3px white;
+    font-size: 80px;
+  }
+  
+  .div-escolher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .colunas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  
+  .item {
+    background-color: #ff2a008c;
+    margin: 5px 10px 5px 10px;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.534);
+    border-radius: 1rem;
+    width: 120%;
+  }
+  
+  .coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 10px;
+    padding: 5vh;
+  }
+  
+  .item h3 {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+  }
+  
+  .coluna p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .coluna img {
+    float: left;
+    width: 18vh;
+    height: 18vh;
+    display: flex;
+    margin: 10px;
+    border-radius: 1rem;
+  }
+
+/*=================================================================================================================*/
+
+#time{
+    margin-top: -6vh;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div-time h1{
+    display: flex;
+    justify-content: center;
+    color: #ff2b00;
+    text-shadow: 2px 2px 3px white;
+    font-size: 80px;
+}
+
+.div-time h2{
+    background-color: rgb(100, 100, 100);
+    display: flex;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.534);
+    justify-content: center;
+    color: hsl(0, 0%, 0%);
+    font-size: 40px;
+}
+
+.div-time h3{
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.534);
+    background-color:rgb(100, 100, 100);
+}
+
+.div-time2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.div-time2 img{
+    width: 30vh;
+    height: 45vh;
+    border: 1vh solid #ff2b00;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.534);
+
+}
+
+/*=================================================================================================================*/
+
+#contato{
+    background-color: rgb(100, 100, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container p{
+    font-size: 20px;
+}
+
+.contatos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+  margin: 20px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.contato img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+  margin: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: 150%;
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input{
+    display: flex;
+    width: 150%;
+    flex-direction: column;
+    align-items: center;
+    resize: vertical;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
